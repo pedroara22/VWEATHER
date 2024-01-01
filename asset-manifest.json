@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pedroara22/VWEATHER/static/css/main.332c6c61.css",
+    "main.js": "/pedroara22/VWEATHER/static/js/main.c8c6c369.js",
+    "index.html": "/pedroara22/VWEATHER/index.html",
+    "main.332c6c61.css.map": "/pedroara22/VWEATHER/static/css/main.332c6c61.css.map",
+    "main.c8c6c369.js.map": "/pedroara22/VWEATHER/static/js/main.c8c6c369.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.332c6c61.css",
+    "static/js/main.c8c6c369.js"
+  ]
+}
