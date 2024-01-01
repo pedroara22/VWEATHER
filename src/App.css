@@ -1,38 +1,124 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap');
+
+#logo{
+  font-family: Encode Sans Condensed;
+}
+*{
+  font-family: Encode Sans Condensed;
+}
+a{
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
+}
+.cityInput{
+  border: none;
+  background: none;
+  padding: 3px 8px 3px 8px;
+  width: 19vw;
+  min-height: 20px;
+  font-weight: bold;
+  color: #000;
+}
+#searchCityResults{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#searchCity{
+  display: flex;
+  color: #000;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 3px 6px 3px 6px;
+  height: 6vh;
+  width: 20vw;
+  background: #e5e5e5;
+  transition: 0.5s ease-in-out;
+  justify-content: center;
+  
+}
+#searchCity2{
+  display: flex;
+  color: #000;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 3px 6px 3px 6px;
+  height: fit-content;
+  width: 20vw;
+  background: #e5e5e5;
+  transition: 0.5s ease-in-out;
+}
+input::placeholder{
+  color: #191919;
+}
+input:focus{
+  outline: none;
+}
+#searchCity2 #searchCityResults{
+  border-top: 1px solid #000;
+}
+#searchCityResults{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+
+.searchCityResult{
+  display: flex;
+  padding: 8px 14px 8px 6px;
+  transition: 0.5s ease-in-out;
+  width: 19vw;
+  color: #000;
+  border-radius: 10px;
+}
+.searchCityResult:hover{
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.searchCityResult span{
+  color: currentColor
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+main h1{
+  color: #FFF;
+  font-family: Encode Sans Condensed;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#temperatura{
+  color: #FFF;
+font-family: Encode Sans Condensed;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+main div{
+  display: flex;
+  width: 25vw;
+  justify-content: space-around;
+  font-size: 20px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main div div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+main div div span{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
